@@ -1,0 +1,168 @@
+.espaco_span {
+  margin-top: 1.25em;
+  /*display: inline-block;*/
+}
+
+.tabela {
+  /*margin-top: 90px;*/
+  border-collapse: collapse;
+  border-spacing: 0;
+  text-align: center;
+  vertical-align: center;
+  /*width: 100%;*/
+}
+
+.tabela td,
+th {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: center;
+}
+
+.tabela thead > tr > th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  background-color: #17a1cf; /* #4caf50; /* rgba(19, 18, 18, 0.877); */
+  color: white;
+}
+
+.tabela tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.tabela tr:nth-child(odd) {
+  background-color: #ddd;
+}
+
+.tabela tbody > tr:hover {
+  background-color: #ddd;
+}
+
+ol {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  /*float: left;*/
+  border-right: 1px solid #bbb;
+}
+
+li:last-child {
+  border-right: none;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+
+.active {
+  background-color: #17a1cf; /*#4CAF50;*/
+}
+
+.margens_tabela {
+  text-align: center;
+  width: 40%;
+  max-width: 99%;
+  margin: 50px auto;
+}
+
+.novas_margens_volta_novos_forms {
+  text-align: center;
+  width: 50%;
+  max-width: 99%;
+  margin: 50px auto;
+  /*margin-top: 85px;
+  margin-bottom: 20px;
+  margin-right: auto;
+  margin-left: 33%;*/
+  border-bottom: 1px solid grey;
+  border-top: 1px solid grey;
+  border-left: 1px solid grey;
+  border-right: 1px solid grey;
+}
+
+.centra_novos_forms {
+  width: 100%; /*50%; */
+  margin: 0 auto;
+}
+
+.centra_titulos_tabs {
+  text-align: center;
+  margin-top: 5px; /*80px;*/
+}
+
+.bolder {
+  font-weight: bold;
+}
+
+/* Formulário de Inserção/Edição */
+.form {
+  position: relative;
+  z-index: 1;
+  background: #17a1cf; /*#4caf50; /*#ffffff;*/
+  max-width: 360px;
+  margin: 0 auto 20px; /*margin: 0 auto 100px; */
+  padding: 45px;
+  margin-top: 15px; /*90px;*/
+  text-align: center;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+.form input {
+  /*font-family: "Roboto", sans-serif;*/
+  outline: 0;
+  background: #f2f2f2; /*#4caf50;*/
+  width: 100%;
+  border: 0;
+  /*margin: 0 0 15px;*/
+  margin: 0 0 0;
+  padding: 15px;
+  box-sizing: border-box;
+  font-size: 14px;
+}
+
+/* Formulário de Login */
+.form_login {
+  position: absolute;
+  z-index: 1;
+  background: #17a1cf; /* #4caf50; /*#ffffff;*/
+  max-width: 360px;
+  /*margin: 0 auto 20px; /*margin: 0 auto 100px;*/
+  /*margin-top: 120px; /*50px; */
+  margin-top: 120px;
+  /*margin-bottom: 20px;*/
+  margin-left: 37%; /*auto;*/
+  /*margin-right: auto;*/
+  padding: 45px;
+  text-align: center;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+.form_login input {
+  /*font-family: "Roboto", sans-serif;*/
+  outline: 0;
+  background: #f2f2f2; /*#4caf50;*/
+  width: 100%;
+  border: 0;
+  margin: 0 0 15px;
+  padding: 15px;
+  box-sizing: border-box;
+  font-size: 14px;
+}
+
+.center_loading {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
